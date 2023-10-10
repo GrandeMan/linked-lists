@@ -160,48 +160,48 @@ class LinkedList {
 
 }
 
-// Create a new LinkedList
-const linkedList = new LinkedList();
-console.log(`   Original list: ${linkedList.toString()}`);
+// // Create a new LinkedList
+// const linkedList = new LinkedList();
+// console.log(`   Original list: ${linkedList.toString()}`);
 
-// Append some values
-linkedList.append(1);
-linkedList.append(2);
-linkedList.append(3);
-console.log(`   Appended values: ${linkedList.toString()}`);
+// // Append some values
+// linkedList.append(1);
+// linkedList.append(2);
+// linkedList.append(3);
+// console.log(`   Appended values: ${linkedList.toString()}`);
 
-// Prepend a value
-linkedList.prepend(0);
-console.log(`   Prepend '0' to the list: ${linkedList.toString()}`);
+// // Prepend a value
+// linkedList.prepend(0);
+// console.log(`   Prepend '0' to the list: ${linkedList.toString()}`);
 
-// Get the size of the list
-const size = linkedList.size();
-console.log(`   Size of the list: ${size}`);
+// // Get the size of the list
+// const size = linkedList.size();
+// console.log(`   Size of the list: ${size}`);
 
-// Get the head and tail values
-const headValue = linkedList.getHead();
-const tailValue = linkedList.getTail();
-console.log(`   Head: ${headValue}`);
-console.log(`   Tail: ${tailValue}`);
+// // Get the head and tail values
+// const headValue = linkedList.getHead();
+// const tailValue = linkedList.getTail();
+// console.log(`   Head: ${headValue}`);
+// console.log(`   Tail: ${tailValue}`);
 
-// Access an element at a specific index
-const elementAtIndex = linkedList.at(1);
-console.log(`   Element at index 1: ${elementAtIndex}`);
+// // Access an element at a specific index
+// const elementAtIndex = linkedList.at(1);
+// console.log(`   Element at index 1: ${elementAtIndex}`);
 
-// Check if the list contains a value
-const containsValue = linkedList.contains(3);
-const containsValue2 = linkedList.contains(4);
-console.log(`   Does the list contain '3': ${containsValue}`);
-console.log(`   Does the list contain '4': ${containsValue2}`);
+// // Check if the list contains a value
+// const containsValue = linkedList.contains(3);
+// const containsValue2 = linkedList.contains(4);
+// console.log(`   Does the list contain '3': ${containsValue}`);
+// console.log(`   Does the list contain '4': ${containsValue2}`);
 
-// Find the index of a value
-const findIndex = linkedList.find(2);
-console.log(`   Index of '2': ${findIndex}`);
+// // Find the index of a value
+// const findIndex = linkedList.find(2);
+// console.log(`   Index of '2': ${findIndex}`);
 
-// Remove an element at a specific index
-linkedList.removeAt(1);
-console.log(`   List after removing element at index 1: ${linkedList.toString()}`);
+// // Remove an element at a specific index
+// linkedList.removeAt(1);
+// console.log(`   List after removing element at index 1: ${linkedList.toString()}`);
 
-// Insert a value at a specific index
-linkedList.insertAt(1, 1);
-console.log(`   List after inserting '1' at index 1: ${linkedList.toString()}`);
+// // Insert a value at a specific index
+// linkedList.insertAt(1, 1);
+// console.log(`   List after inserting '1' at index 1: ${linkedList.toString()}`);
